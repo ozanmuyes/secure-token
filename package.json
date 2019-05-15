@@ -1,7 +1,7 @@
 {
   "name": "secure-token",
   "version": "1.0.0",
-  "description": "Secure stateless JWT tokens with cookies.",
+  "description": "Securing stateless JWTs with cookies.",
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test mocha ./test --recursive"
