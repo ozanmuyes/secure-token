@@ -51,7 +51,7 @@ module.exports = {
 
         'space-before-function-paren': 'off',
         'func-names': 'off',
-        'max-nested-callbacks': ['error', 5],
+        'max-nested-callbacks': ['error', 6],
 
         // See https://github.com/ihordiachenko/eslint-plugin-chai-friendly#usage
         'no-unused-expressions': 'off',

@@ -8,13 +8,13 @@
       "type": "node",
       "request": "launch",
       "name": "example-express",
-      "program": "${workspaceFolder}/examples/express-4/2-with-others.js"
+      "program": "${workspaceFolder}/examples/express-4/index.js"
     },
     {
       "type": "node",
       "request": "launch",
       "name": "example-koa",
-      "program": "${workspaceFolder}/examples/koa-2/2-with-others.js"
+      "program": "${workspaceFolder}/examples/koa-2/index.js"
     },
     {
       "type": "node",
@@ -26,7 +26,8 @@
       },
       "args": [
         "--timeout", "999999",
-        // "--recursive",
+        "--recursive",
+        "--bail",
         "${workspaceFolder}/test/**/*.js",
       ],
       "console": "integratedTerminal",
